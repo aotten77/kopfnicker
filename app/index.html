@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="otsConfApp">
+<head>
+  <meta charset="utf-8">
+  <title>myApp</title>
+
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+  <!--
+  <link rel="stylesheet" href="styles/main.css">
+  -->
+
+</head>
+<body>
+
+  <div class="container" ng-view>
+  </div>
+
+
+  <!-- 3rd-Party Libs -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+
+  <!-- Application Files -->
+  <script src="scripts/app.js"></script>
+  <script src="scripts/directives/otsColorPicker.js"></script>
+  <script src="scripts/controllers/ColorPickerCtrl.js"></script>
+  <script src="scripts/controllers/BookListCtrl.js"></script>
+  <script src="scripts/controllers/BookDetailsCtrl.js"></script>
+  <script src="scripts/services/bookDataService.js"></script>
+  <script src="scripts/_configs/routeConfig.js"></script>
+
+</body>
+</html>
